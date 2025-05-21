@@ -1,13 +1,14 @@
 import Alert from "./components/Alert";
-import ListGroup from "./components/ListGroup";
+import Button from "./components/Button";
 
-function App(){
-  
+function App() {
+
+
   return (
-    <div> 
-      <Alert childern = "Hello World"/>
+    <div>
+      <Button color="primary" onClick={() => console.log('Clicked')} > My button </Button>
     </div>
-  );  
+  );
 }
 
 export default App;
